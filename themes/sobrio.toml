@@ -8,16 +8,21 @@
 "ui.cursor" = { bg = "silver" }
 "ui.cursorline" = { bg = "selection-bg" }
 "ui.cursor.match" = { fg = "white", modifiers = ["bold"] }
-"ui.linenr" = { fg = "number" }
-"ui.linenr.selected" = { fg = "gray" }
+"ui.linenr" = { fg = "number", modifiers = ["dim"] }
+"ui.linenr.selected" = { fg = "silver" }
 "ui.menu" = { fg = "silver", bg = "bg" }
-"ui.menu.selected" = { fg = "white", bg = "gray" }
 "ui.menu.scroll" = { fg = "silver", bg = "gray" }
+"ui.menu.selected" = { fg = "white", bg = "gray" }
 "ui.popup" = { bg = "dark" }
 "ui.selection" = { fg ="brown", bg = "selection-bg" }
-"ui.statusline" = { bg = "bg"}
-"ui.text" = "silver"
+"ui.statusline" = { bg = "bg" }
+"ui.statusline.normal" = { fg = "black", bg = "yellow", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "black", bg = "red", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "black", bg = "blue", modifiers = ["bold"] }
 "ui.text.focus" = { fg = "white", bg = "hover" }
+"ui.text" = "silver"
+"ui.virtual.indent-guide" = "selection-bg"
+"ui.virtual.ruler" = { bg = "gray" }
 "ui.window" = "splits"
 
 # Colors
@@ -54,6 +59,7 @@ warning = "yellow"
 "diff.plus" = "green"
 "function.builtin" = { fg = "yellow", modifiers = ["bold"] }
 "function.macro" = { fg = "yellow", modifiers = ["bold"] }
+"keyword.control.import" = { fg = "red", modifiers = ["bold"] } 
 "keyword.directive" = "yellow" 
 "keyword.operator" = "red"
 "keyword.storage" = { fg = "cyan", modifiers = ["italic"] } 
