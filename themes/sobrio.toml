@@ -1,7 +1,29 @@
 # -------------------------------------------------------
 # Sobrio Theme
-# Author : Elves Sousa <contato@elvessousa.com.br>
+# Author: Elves Sousa <contato@elvessousa.com.br>
 # -------------------------------------------------------
+
+# Colors
+"attribute" = { fg = "yellow", modifiers = ["italic"] }
+"comment" = { fg = "gray", modifiers = ["italic"] }
+"constant" = { fg = "purple" }
+"constructor" = { fg = "cyan", modifiers = ["bold"] }
+"error" = "red"
+"field" = { modifiers = ["italic"] }
+"function" = { fg = "white", modifiers = ["bold"] }
+"hint" = "cyan"
+"info" = "purple"
+"keyword" = { fg = "red", modifiers = ["italic"] }
+"namespace" = "yellow"
+"numeric" = "purple"
+"operator" = "red"
+"punctuation" = "light-gray"
+"special" = { fg = "yellow" }
+"string" = "blue"
+"tag" = { fg = "red", modifiers = ["bold"] }
+"type" = { fg = "silver", modifiers = ["italic"] }
+"variable" = "light"
+"warning" = "yellow"
 
 # UI
 "ui.background" = { bg = "dark" }
@@ -24,29 +46,6 @@
 "ui.virtual.indent-guide" = "selection-bg"
 "ui.virtual.ruler" = { bg = "gray" }
 "ui.window" = "splits"
-
-# Colors
-attribute = { fg = "yellow", modifiers = ["italic"] }
-comment = { fg = "gray", modifiers = ["italic"] }
-constant = { fg = "purple" }
-constructor = { fg = "cyan", modifiers = ["bold"] }
-error	 = "red"
-field = { modifiers = ["italic"] }
-function = { fg = "white", modifiers = ["bold"] }
-hint = "cyan"
-info = "purple"
-keyword = { fg = "red", modifiers = ["italic"] }
-namespace = "yellow"
-numeric = "purple"
-operator = "red"
-punctuation = "light-gray"
-special = "yellow"
-special = { fg = "yellow" }
-string = "blue"
-tag = { fg = "red", modifiers = ["bold"] }
-type = { fg = "silver", modifiers = ["italic"] }
-variable = "light"
-warning = "yellow"
 
 # Specific
 "comment.documentation" = { fg = "light-gray", modifiers = ["italic"] }
@@ -78,6 +77,7 @@ warning = "yellow"
 "variable.builtin" = { fg = "silver", modifiers = ["italic"] }
 "variable.other.member" = { fg = "white", modifiers = ["italic"] }
 "variable.parameter" = { fg = "yellow" }
+
 
 [palette]
 black = "#000000"
