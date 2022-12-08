@@ -27,6 +27,8 @@
 
 # UI
 "ui.background" = { bg = "dark" }
+"ui.bufferline" = { fg = "dark", bg = "black" }
+"ui.bufferline.active" = { fg = "yellow", bg = "dark", modifiers = ["bold"] }
 "ui.cursor" = { bg = "silver" }
 "ui.cursorline" = { bg = "selection-bg" }
 "ui.cursor.match" = { fg = "white", modifiers = ["bold"] }
