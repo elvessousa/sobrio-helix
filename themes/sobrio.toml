@@ -51,7 +51,7 @@
 
 # Specific
 "comment.documentation" = { fg = "light-gray", modifiers = ["italic"] }
-"diagnostic.error" = { fg = "white", modifiers = ["crossed_out"] }
+"diagnostic.error" = { fg = "white", underline = { color = "red", style = "curl"} }
 "diagnostic.hint" = { modifiers = ["underlined"] }
 "diagnostic.info" = { fg = "gray", modifiers = ["dim"] }
 "diagnostic.warning" = { fg = "yellow", modifiers = ["dim", "slow_blink"] }
