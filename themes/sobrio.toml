@@ -46,7 +46,7 @@
 "ui.text.focus" = { fg = "white", bg = "hover" }
 "ui.text" = "silver"
 "ui.virtual.indent-guide" = "selection-bg"
-"ui.virtual.ruler" = { bg = "gray" }
+"ui.virtual.ruler" = { bg = "selection-bg" }
 "ui.window" = "splits"
 
 # Specific
