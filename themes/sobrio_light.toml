@@ -26,7 +26,7 @@
 "warning" = "yellow"
 
 # UI
-"ui.background" = { bg = "dark" }
+"ui.background" = { bg = "dark", fg = "splits" }
 "ui.bufferline.active" = { fg = "yellow", bg = "dark", modifiers = ["bold"] }
 "ui.bufferline" = { fg = "number", bg = "black" }
 "ui.cursor" = { bg = "silver" }
@@ -38,7 +38,7 @@
 "ui.menu" = { fg = "silver", bg = "bg" }
 "ui.menu.scroll" = { fg = "silver", bg = "gray" }
 "ui.menu.selected" = { fg = "white", bg = "splits" }
-"ui.popup" = { bg = "dark", fg = "gray" }
+"ui.popup" = { bg = "dark", fg = "splits" }
 "ui.selection" = { fg ="brown", bg = "selection-bg" }
 "ui.statusline" = { bg = "bg", fg = "white" }
 "ui.statusline.insert" = { fg = "black", bg = "red", modifiers = ["bold"] }
